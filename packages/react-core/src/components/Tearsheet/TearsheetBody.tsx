@@ -1,0 +1,11 @@
+import type { FunctionComponent } from 'react';
+import { css } from '@patternfly/react-styles';
+import styles from '@patternfly/react-styles/css/components/Tearsheet/tearsheet';
+import { ModalBody, type ModalBodyProps } from '../Modal';
+
+export interface TearsheetBodyProps extends ModalBodyProps {}
+
+export const TearsheetBody: FunctionComponent<TearsheetBodyProps> = ({ className, ...props }: TearsheetBodyProps) => (
+  <ModalBody className={css(styles.tearsheetBody, className)} {...props} />
+);
+TearsheetBody.displayName = 'TearsheetBody';

@@ -1,3 +1,15 @@
 .pf-v6-c-tearsheet {
   display: flex;
 }
+
+.pf-v6-c-tearsheet-header {
+    display: flex;
+}
+
+.pf-v6-c-tearsheet-body {
+    display: flex;
+}
+
+.pf-v6-c-tearsheet-footer {
+    display: flex;
+}
