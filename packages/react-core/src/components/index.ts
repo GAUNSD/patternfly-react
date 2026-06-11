@@ -65,6 +65,7 @@ export * from './Slider';
 export * from './Spinner';
 export * from './Switch';
 export * from './Tabs';
+export * from './Tearsheet';
 export * from './TextArea';
 export * from './TextInput';
 export * from './TimePicker';
