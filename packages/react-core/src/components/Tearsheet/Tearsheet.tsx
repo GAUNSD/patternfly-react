@@ -41,14 +41,11 @@ export const Tearsheet: FunctionComponent<TearsheetProps> = ({
   disableFocusTrap,
   ...props
 }: TearsheetProps) => {
-  if (!isOpen) {
-    return null;
-  }
-
   const stackLevelClassname = `pf-m-stack-level-${props.stackLevel ? props.stackLevel : '0'}`;
 
   return (
     <Modal
+      animated
       className={css(styles.tearsheet, stackLevelClassname)}
       isOpen={isOpen}
       variant={ModalVariant.large}

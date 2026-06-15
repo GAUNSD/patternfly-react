@@ -155,3 +155,12 @@ To customize which element inside the modal receives focus when initially opened
 ```ts file="./ModalCustomFocus.tsx"
 
 ```
+
+### Animated modal
+
+To allow modals to animate as they open and close, set the `animated` property accordingly.
+_Animated modals may have an impact on rendering performance_
+
+```ts file="./ModalAnimated.tsx"
+
+```
