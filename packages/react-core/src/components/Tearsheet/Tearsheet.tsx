@@ -10,8 +10,10 @@ export interface TearsheetProps extends HTMLProps<HTMLDivElement> {
   className?: string;
   /** Flag to show the tearsheet. */
   isOpen?: boolean;
-  /** Flag to show a stacked tearsheet. */
-  stackLevel?: 0 | 1 | 2;
+  /** Visual stack level of the tearsheet. Managed automatically by TearsheetGroup.
+   * When used standalone: 0 (back), 1 (middle), 2 (front).
+   * TearsheetGroup may also assign -1 (hidden behind the stack). */
+  stackLevel?: number;
   /** A callback for when the close button is clicked. This prop needs to be passed to render the close button. */
   onClose?: (event: KeyboardEvent | MouseEvent) => void;
   /** A callback for when the tearsheet is closed via the escape key. */
@@ -32,6 +34,7 @@ export const Tearsheet: FunctionComponent<TearsheetProps> = ({
   children,
   className,
   isOpen = false,
+  stackLevel: stackLevelProp,
   onClose,
   onEscapePress,
   appendTo,
@@ -41,7 +44,8 @@ export const Tearsheet: FunctionComponent<TearsheetProps> = ({
   disableFocusTrap,
   ...props
 }: TearsheetProps) => {
-  const stackLevelClassname = `pf-m-stack-level-${props.stackLevel ? props.stackLevel : '0'}`;
+  const stackLevel = stackLevelProp ?? 0;
+  const stackLevelClassname = stackLevel < 0 ? 'pf-m-stack-hidden' : `pf-m-stack-level-${stackLevel}`;
 
   return (
     <Modal
