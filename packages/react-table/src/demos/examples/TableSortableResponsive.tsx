@@ -32,12 +32,12 @@ import { Table, Thead, Tr, Th, Tbody, Td } from '@patternfly/react-table';
 import CloneIcon from '@patternfly/react-icons/dist/esm/icons/clone-icon';
 import EditIcon from '@patternfly/react-icons/dist/esm/icons/edit-icon';
 import SyncIcon from '@patternfly/react-icons/dist/esm/icons/sync-icon';
-import CodeIcon from '@patternfly/react-icons/dist/esm/icons/code-icon';
-import CodeBranchIcon from '@patternfly/react-icons/dist/esm/icons/code-branch-icon';
-import SortAmountDownIcon from '@patternfly/react-icons/dist/esm/icons/sort-amount-down-icon';
+import RhUiCodeIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-code-icon';
+import RhMicronsSortDownLargeToSmallIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-sort-down-large-to-small-icon';
+import RhUiBranchFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-branch-fill-icon';
 import CubeIcon from '@patternfly/react-icons/dist/esm/icons/cube-icon';
 import { DashboardWrapper } from '@patternfly/react-table/dist/esm/demos/DashboardWrapper';
-import EllipsisVIcon from '@patternfly/react-icons/dist/esm/icons/ellipsis-v-icon';
+import RhUiEllipsisVerticalFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-ellipsis-vertical-fill-icon';
 import { rows, columns, SampleDataRow } from '@patternfly/react-table/dist/esm/demos/sampleData';
 
 type Direction = 'asc' | 'desc' | undefined;
@@ -151,7 +151,7 @@ export const TableSortableResponsive: React.FunctionComponent = () => {
                 onClick={() => setIsSortDropdownOpen(!isSortDropdownOpen)}
                 isExpanded={isSortDropdownOpen}
                 variant="plain"
-                icon={<SortAmountDownIcon />}
+                icon={<RhMicronsSortDownLargeToSmallIcon />}
               />
             )}
           >
@@ -199,7 +199,7 @@ export const TableSortableResponsive: React.FunctionComponent = () => {
                     variant="plain"
                     onClick={() => setIsKebabDropdownOpen(!isKebabDropdownOpen)}
                     isExpanded={false}
-                    icon={<EllipsisVIcon />}
+                    icon={<RhUiEllipsisVerticalFillIcon />}
                   />
                 )}
                 isOpen={isKebabDropdownOpen}
@@ -277,7 +277,7 @@ export const TableSortableResponsive: React.FunctionComponent = () => {
                     <Td dataLabel={columns[1]} width={10}>
                       <Flex spaceItems={{ default: 'spaceItemsSm' }}>
                         <FlexItem>
-                          <CodeBranchIcon key="icon" />
+                          <RhUiBranchFillIcon key="icon" />
                         </FlexItem>
                         <FlexItem>{row.threads}</FlexItem>
                       </Flex>
@@ -285,7 +285,7 @@ export const TableSortableResponsive: React.FunctionComponent = () => {
                     <Td dataLabel={columns[2]} width={10}>
                       <Flex spaceItems={{ default: 'spaceItemsSm' }}>
                         <FlexItem>
-                          <CodeIcon key="icon" />
+                          <RhUiCodeIcon key="icon" />
                         </FlexItem>
                         <FlexItem>{row.applications}</FlexItem>
                       </Flex>

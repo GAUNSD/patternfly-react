@@ -5,13 +5,13 @@ section: components
 
 import { Fragment, useState } from 'react';
 
-import CodeBranchIcon from '@patternfly/react-icons/dist/esm/icons/code-branch-icon';
+import RhUiBranchFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-branch-fill-icon';
 import RhMicronsCaretDownIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-caret-down-icon';
 import RhMicronsCaretRightIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-caret-right-icon';
-import EllipsisVIcon from '@patternfly/react-icons/dist/esm/icons/ellipsis-v-icon';
+import RhUiEllipsisVerticalFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-ellipsis-vertical-fill-icon';
 import { css } from '@patternfly/react-styles';
 
-import CodeIcon from '@patternfly/react-icons/dist/esm/icons/code-icon';
+import RhUiCodeIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-code-icon';
 import CubeIcon from '@patternfly/react-icons/dist/esm/icons/cube-icon';
 import RhUiWarningFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-warning-fill-icon';
 import RhUiCheckCircleFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-check-circle-fill-icon';

@@ -17,11 +17,11 @@ import {
   DualListSelectorControlsWrapper as DLSControlsWrapperDeprecated,
   DualListSelectorControl as DLSControlDeprecated
 } from '@patternfly/react-core/deprecated';
-import AngleDoubleLeftIcon from '@patternfly/react-icons/dist/esm/icons/angle-double-left-icon';
+import RhMicronsDoubleCaretLeftIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-double-caret-left-icon';
 import AngleLeftIcon from '@patternfly/react-icons/dist/esm/icons/angle-left-icon';
 import AngleDoubleRightIcon from '@patternfly/react-icons/dist/esm/icons/angle-double-right-icon';
 import AngleRightIcon from '@patternfly/react-icons/dist/esm/icons/angle-right-icon';
-import PficonSortCommonAscIcon from '@patternfly/react-icons/dist/esm/icons/pficon-sort-common-asc-icon';
+import RhMicronsSortDownSmallToLargeIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-sort-down-small-to-large-icon';
 import SearchIcon from '@patternfly/react-icons/dist/esm/icons/search-icon';
 
 interface Option {
@@ -137,7 +137,7 @@ export const DualListSelectorComposable: React.FunctionComponent = () => {
         onClick={onSort}
         aria-label="Sort"
         key="sortButton"
-        icon={<PficonSortCommonAscIcon />}
+        icon={<RhMicronsSortDownSmallToLargeIcon />}
       />
     );
   };
@@ -209,7 +209,7 @@ export const DualListSelectorComposable: React.FunctionComponent = () => {
           aria-label="Remove all"
           tooltipContent="Remove all"
         >
-          <AngleDoubleLeftIcon />
+          <RhMicronsDoubleCaretLeftIcon />
         </DLSControlDeprecated>
         <DLSControlDeprecated
           onClick={() => moveSelected(false)}

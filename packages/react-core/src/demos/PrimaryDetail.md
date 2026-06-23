@@ -4,9 +4,9 @@ section: patterns
 ---
 
 import { Fragment, useState } from 'react';
-import CodeBranchIcon from '@patternfly/react-icons/dist/esm/icons/code-branch-icon';
+import RhUiBranchFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-branch-fill-icon';
 import TrashIcon from '@patternfly/react-icons/dist/esm/icons/trash-icon';
-import CodeIcon from '@patternfly/react-icons/dist/esm/icons/code-icon';
+import RhUiCodeIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-code-icon';
 import CubeIcon from '@patternfly/react-icons/dist/esm/icons/cube-icon';
 import RhUiCheckCircleFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-check-circle-fill-icon';
 import RhUiWarningFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-warning-fill-icon';
@@ -23,7 +23,7 @@ import sparkIcon from './assets/camel-spark_200x150.png';
 import swaggerIcon from './assets/camel-swagger-java_200x150.png';
 import azureIcon from './assets/FuseConnector_Icons_AzureServices.png';
 import restIcon from './assets/FuseConnector_Icons_REST.png';
-import EllipsisVIcon from '@patternfly/react-icons/dist/esm/icons/ellipsis-v-icon';
+import RhUiEllipsisVerticalFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-ellipsis-vertical-fill-icon';
 import { data } from '@patternfly/react-core/src/demos/CardView/examples/CardViewData.jsx';
 import { DashboardWrapper } from '@patternfly/react-core/dist/js/demos/DashboardWrapper';
 

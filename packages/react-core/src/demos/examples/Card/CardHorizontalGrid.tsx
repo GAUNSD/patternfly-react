@@ -21,9 +21,9 @@ import {
   MenuToggleElement
 } from '@patternfly/react-core';
 import RhUiInformationFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-information-fill-icon';
-import ArrowRightIcon from '@patternfly/react-icons/dist/esm/icons/arrow-right-icon';
-import ExternalLinkAltIcon from '@patternfly/react-icons/dist/esm/icons/external-link-alt-icon';
-import EllipsisVIcon from '@patternfly/react-icons/dist/esm/icons/ellipsis-v-icon';
+import RhMicronsCaretRightIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-caret-right-icon';
+import RhMicronsExternalLinkIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-external-link-icon';
+import RhUiEllipsisVerticalFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-ellipsis-vertical-fill-icon';
 
 export const CardHorizontalGrid: React.FunctionComponent = () => {
   const [isCardExpanded, setIsCardExpanded] = useState(false);
@@ -64,7 +64,7 @@ export const CardHorizontalGrid: React.FunctionComponent = () => {
           onClick={onActionToggle}
           variant="plain"
           aria-label="Horizontal card grid demo kebab toggle"
-          icon={<EllipsisVIcon />}
+          icon={<RhUiEllipsisVerticalFillIcon />}
         />
       )}
     >
@@ -135,7 +135,14 @@ export const CardHorizontalGrid: React.FunctionComponent = () => {
                   </ListItem>
                 </List>
               </Flex>
-              <Button href="#" component="a" variant="link" isInline icon={<ArrowRightIcon />} iconPosition="right">
+              <Button
+                href="#"
+                component="a"
+                variant="link"
+                isInline
+                icon={<RhMicronsCaretRightIcon />}
+                iconPosition="right"
+              >
                 View all set up cluster steps
               </Button>
             </Flex>
@@ -163,7 +170,14 @@ export const CardHorizontalGrid: React.FunctionComponent = () => {
                   </ListItem>
                 </List>
               </Flex>
-              <Button href="#" component="a" variant="link" isInline icon={<ArrowRightIcon />} iconPosition="right">
+              <Button
+                href="#"
+                component="a"
+                variant="link"
+                isInline
+                icon={<RhMicronsCaretRightIcon />}
+                iconPosition="right"
+              >
                 View all guided tours
               </Button>
             </Flex>
@@ -194,7 +208,14 @@ export const CardHorizontalGrid: React.FunctionComponent = () => {
                   </ListItem>
                 </List>
               </Flex>
-              <Button href="#" component="a" variant="link" isInline icon={<ArrowRightIcon />} iconPosition="right">
+              <Button
+                href="#"
+                component="a"
+                variant="link"
+                isInline
+                icon={<RhMicronsCaretRightIcon />}
+                iconPosition="right"
+              >
                 View all quick starts
               </Button>
             </Flex>
@@ -220,7 +241,7 @@ export const CardHorizontalGrid: React.FunctionComponent = () => {
                   <ListItem>
                     <a href="#">
                       OpenShift 4.5: Top Tasks
-                      <ExternalLinkAltIcon />
+                      <RhMicronsExternalLinkIcon />
                     </a>
                   </ListItem>
                   <ListItem>
@@ -228,7 +249,14 @@ export const CardHorizontalGrid: React.FunctionComponent = () => {
                   </ListItem>
                 </List>
               </Flex>
-              <Button href="#" component="a" variant="link" isInline icon={<ArrowRightIcon />} iconPosition="right">
+              <Button
+                href="#"
+                component="a"
+                variant="link"
+                isInline
+                icon={<RhMicronsCaretRightIcon />}
+                iconPosition="right"
+              >
                 View all learning resources
               </Button>
             </Flex>

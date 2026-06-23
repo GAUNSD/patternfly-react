@@ -21,16 +21,16 @@ ouia: true
 ---
 
 import { Fragment, createRef, useEffect, useRef, useState } from 'react';
-import BarsIcon from '@patternfly/react-icons/dist/esm/icons/bars-icon';
-import ClipboardIcon from '@patternfly/react-icons/dist/esm/icons/clipboard-icon';
-import CodeBranchIcon from '@patternfly/react-icons/dist/esm/icons/code-branch-icon';
-import LayerGroupIcon from '@patternfly/react-icons/dist/esm/icons/layer-group-icon';
+import RhUiMenuBarsIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-menu-bars-icon';
+import RhUiClipboardFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-clipboard-fill-icon';
+import RhUiBranchFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-branch-fill-icon';
+import RhUiServerStackFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-server-stack-fill-icon';
 import CubeIcon from '@patternfly/react-icons/dist/esm/icons/cube-icon';
-import TableIcon from '@patternfly/react-icons/dist/esm/icons/table-icon';
+import RhUiTableIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-table-icon';
 import RhUiNotificationFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-notification-fill-icon';
-import StorageDomainIcon from '@patternfly/react-icons/dist/esm/icons/storage-domain-icon';
+import RhUiStorageDomainFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-storage-domain-fill-icon';
 import RhMicronsCaretLeftIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-caret-left-icon';
-import CaretDownIcon from '@patternfly/react-icons/dist/esm/icons/caret-down-icon';
+import RhMicronsCaretDownIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-caret-down-icon';
 
 ## Examples
 

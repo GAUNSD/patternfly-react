@@ -8,10 +8,10 @@ ouia: true
 
 import './alert.css';
 import { Fragment, useEffect, useState } from 'react';
-import UsersIcon from '@patternfly/react-icons/dist/esm/icons/users-icon';
-import BoxIcon from '@patternfly/react-icons/dist/esm/icons/box-icon';
+import RhUiUsersFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-users-fill-icon';
+import RhUiContainerFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-container-fill-icon';
 import DatabaseIcon from '@patternfly/react-icons/dist/esm/icons/database-icon';
-import ServerIcon from '@patternfly/react-icons/dist/esm/icons/server-icon';
+import RhUiServerStackFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-server-stack-fill-icon';
 import LaptopIcon from '@patternfly/react-icons/dist/esm/icons/laptop-icon';
 import buttonStyles from '@patternfly/react-styles/css/components/Button/button';
 

@@ -9,13 +9,12 @@ import RhUiSettingsFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-s
 import HelpIcon from '@patternfly/react-icons/dist/esm/icons/help-icon';
 import RhUiQuestionMarkCircleFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-question-mark-circle-fill-icon';
 import imgAvatar from '@patternfly/react-core/src/components/assets/avatarImg.svg';
-import BarsIcon from '@patternfly/react-icons/dist/esm/icons/bars-icon';
+import RhUiMenuBarsIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-menu-bars-icon';
 import LightbulbIcon from '@patternfly/react-icons/dist/esm/icons/lightbulb-icon';
-import EllipsisVIcon from '@patternfly/react-icons/dist/esm/icons/ellipsis-v-icon';
+import RhUiEllipsisVerticalFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-ellipsis-vertical-fill-icon';
 import CubeIcon from '@patternfly/react-icons/dist/esm/icons/cube-icon';
 import FolderIcon from '@patternfly/react-icons/dist/esm/icons/folder-icon';
 import CloudIcon from '@patternfly/react-icons/dist/esm/icons/cloud-icon';
-import CodeIcon from '@patternfly/react-icons/dist/esm/icons/code-icon';
 import pfLogo from '@patternfly/react-core/src/demos/assets/PF-HorizontalLogo-Color.svg';
 import pfIconLogo from '@patternfly/react-core/src/demos/assets/PF-IconLogo-color.svg';
 

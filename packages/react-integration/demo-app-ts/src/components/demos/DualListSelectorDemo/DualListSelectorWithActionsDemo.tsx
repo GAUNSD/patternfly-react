@@ -21,14 +21,14 @@ import {
   MenuToggle,
   MenuToggleElement
 } from '@patternfly/react-core';
-import AngleDoubleLeftIcon from '@patternfly/react-icons/dist/esm/icons/angle-double-left-icon';
+import RhMicronsDoubleCaretLeftIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-double-caret-left-icon';
 import AngleLeftIcon from '@patternfly/react-icons/dist/esm/icons/angle-left-icon';
 import AngleDoubleRightIcon from '@patternfly/react-icons/dist/esm/icons/angle-double-right-icon';
 import AngleRightIcon from '@patternfly/react-icons/dist/esm/icons/angle-right-icon';
-import PficonSortCommonAscIcon from '@patternfly/react-icons/dist/esm/icons/pficon-sort-common-asc-icon';
-import PficonSortCommonDescIcon from '@patternfly/react-icons/dist/esm/icons/pficon-sort-common-desc-icon';
+import RhUiSortDownLargeToSmallIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-sort-down-large-to-small-icon';
+import RhMicronsSortDownSmallToLargeIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-sort-down-small-to-large-icon';
 import SearchIcon from '@patternfly/react-icons/dist/esm/icons/search-icon';
-import EllipsisVIcon from '@patternfly/react-icons/dist/esm/icons/ellipsis-v-icon';
+import RhUiEllipsisVerticalFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-ellipsis-vertical-fill-icon';
 
 interface Option {
   text: string;
@@ -133,7 +133,7 @@ export const DualListSelectorWithActionsDemo: React.FunctionComponent = () => {
         return direction === 'asc' ? 'ascending' : 'descending';
       },
       getIcon(direction: SortDirection) {
-        return direction === 'asc' ? <PficonSortCommonAscIcon /> : <PficonSortCommonDescIcon />;
+        return direction === 'asc' ? <RhMicronsSortDownSmallToLargeIcon /> : <RhUiSortDownLargeToSmallIcon />;
       }
     };
 
@@ -190,7 +190,7 @@ export const DualListSelectorWithActionsDemo: React.FunctionComponent = () => {
                 variant="plain"
                 id="complex-available-toggle"
                 aria-label="Complex actions example available kebab toggle"
-                icon={<EllipsisVIcon />}
+                icon={<RhUiEllipsisVerticalFillIcon />}
               />
             )}
             isOpen={isAvailableKebabOpen}
@@ -225,7 +225,7 @@ export const DualListSelectorWithActionsDemo: React.FunctionComponent = () => {
                 variant="plain"
                 id="complex-chosen-toggle"
                 aria-label="Complex actions example chosen kebab toggle"
-                icon={<EllipsisVIcon />}
+                icon={<RhUiEllipsisVerticalFillIcon />}
               />
             )}
             isOpen={isChosenKebabOpen}
@@ -306,7 +306,7 @@ export const DualListSelectorWithActionsDemo: React.FunctionComponent = () => {
             isDisabled={chosenOptions.length === 0 || isDisabled}
             onClick={() => moveAll(false)}
             aria-label="Remove all"
-            icon={<AngleDoubleLeftIcon />}
+            icon={<RhMicronsDoubleCaretLeftIcon />}
           />
           <DualListSelectorControl
             onClick={() => moveSelected(false)}

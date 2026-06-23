@@ -43,16 +43,16 @@ The documentation for the deprecated table implementation can be found under the
 
 import { Fragment, isValidElement, useCallback, useEffect, useRef, useState, useLayoutEffect } from 'react';
 import SearchIcon from '@patternfly/react-icons/dist/esm/icons/search-icon';
-import CodeBranchIcon from '@patternfly/react-icons/dist/esm/icons/code-branch-icon';
-import CodeIcon from '@patternfly/react-icons/dist/esm/icons/code-icon';
+import RhUiCodeIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-code-icon';
+import RhUiBranchFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-branch-fill-icon';
 import CubeIcon from '@patternfly/react-icons/dist/esm/icons/cube-icon';
 import LeafIcon from '@patternfly/react-icons/dist/esm/icons/leaf-icon';
 import FolderIcon from '@patternfly/react-icons/dist/esm/icons/folder-icon';
 import FolderOpenIcon from '@patternfly/react-icons/dist/esm/icons/folder-open-icon';
-import SortAmountDownIcon from '@patternfly/react-icons/dist/esm/icons/sort-amount-down-icon';
+import RhMicronsSortDownLargeToSmallIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-sort-down-large-to-small-icon';
 import RhUiBlueprintIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-blueprint-icon';
-import EllipsisVIcon from '@patternfly/react-icons/dist/esm/icons/ellipsis-v-icon';
-import PencilAltIcon from '@patternfly/react-icons/dist/esm/icons/pencil-alt-icon';
+import RhUiEditFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-edit-fill-icon';
+import RhUiEllipsisVerticalFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-ellipsis-vertical-fill-icon';
 import CheckIcon from '@patternfly/react-icons/dist/esm/icons/check-icon';
 import RhMicronsCloseIcon from '@patternfly/react-icons/dist/esm/icons/rh-microns-close-icon';
 

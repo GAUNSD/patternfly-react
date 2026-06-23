@@ -6,7 +6,7 @@ propComponents: ['TreeView', 'TreeViewDataItem', 'TreeViewSearch']
 ---
 
 import { Fragment, useEffect, useState } from 'react';
-import { FolderIcon, FolderOpenIcon, EllipsisVIcon, ClipboardIcon, HamburgerIcon, GitlabIcon, GithubIcon, GoogleIcon } from '@patternfly/react-icons';
+import { FolderIcon, FolderOpenIcon, RhUiEllipsisVerticalFillIcon, HamburgerIcon, GitlabIcon, GithubIcon, GoogleIcon, RhUiClipboardFillIcon, RhUiStorageFillIcon } from '@patternfly/react-icons';
 
 ## Examples
 

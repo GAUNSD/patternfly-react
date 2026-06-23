@@ -6,13 +6,13 @@ section: components
 import { useRef, useState, useEffect } from 'react';
 import PlayIcon from '@patternfly/react-icons/dist/esm/icons/play-icon';
 import OutlinedPlusSquare from '@patternfly/react-icons/dist/esm/icons/outlined-plus-square-icon';
-import OutlinedCopy from '@patternfly/react-icons/dist/esm/icons/outlined-copy-icon';
+import RhUiCopyIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-copy-icon';
 import RhUiQuestionMarkCircleIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-question-mark-circle-icon';
 import CubeIcon from '@patternfly/react-icons/dist/esm/icons/cube-icon';
 import FolderIcon from '@patternfly/react-icons/dist/esm/icons/folder-icon';
 import RhUiQuestionMarkCircleFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-question-mark-circle-fill-icon';
 import CloudIcon from '@patternfly/react-icons/dist/esm/icons/cloud-icon';
-import CodeIcon from '@patternfly/react-icons/dist/esm/icons/code-icon';
+import RhUiCodeIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-code-icon';
 import SearchIcon from '@patternfly/react-icons/dist/esm/icons/search-icon';
 import imgAvatar from '../assets/avatarImg.svg';
 import ThIcon from '@patternfly/react-icons/dist/esm/icons/th-icon';

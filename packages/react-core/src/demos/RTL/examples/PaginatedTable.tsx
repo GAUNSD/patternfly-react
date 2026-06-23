@@ -46,14 +46,14 @@ import translationsEn from './examples/translations.en.json';
 import translationsHe from './examples/translations.he.json';
 import AlignRightIcon from '@patternfly/react-icons/dist/esm/icons/align-right-icon';
 import ToolsIcon from '@patternfly/react-icons/dist/esm/icons/tools-icon';
-import ClockIcon from '@patternfly/react-icons/dist/esm/icons/clock-icon';
-import WalkingIcon from '@patternfly/react-icons/dist/esm/icons/walking-icon';
+import RhUiRunningIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-running-icon';
+import RhUiClockFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-clock-fill-icon';
 import pfLogo from '@patternfly/react-core/src/demos/assets/pf-logo.svg';
 import RhUiSettingsFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-settings-fill-icon';
 import RhUiQuestionMarkCircleFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-question-mark-circle-fill-icon';
 import HelpIcon from '@patternfly/react-icons/dist/esm/icons/help-icon';
-import EllipsisVIcon from '@patternfly/react-icons/dist/esm/icons/ellipsis-v-icon';
-import HandPaperIcon from '@patternfly/react-icons/dist/esm/icons/hand-paper-icon';
+import RhUiStopCircleFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-stop-circle-fill-icon';
+import RhUiEllipsisVerticalFillIcon from '@patternfly/react-icons/dist/esm/icons/rh-ui-ellipsis-vertical-fill-icon';
 import imgAvatar from '@patternfly/react-core/src/components/assets/avatarImg.svg';
 import { rows } from '@patternfly/react-core/dist/esm/demos/sampleDataRTL';
 
@@ -184,7 +184,7 @@ export const PaginatedTableAction: React.FunctionComponent = () => {
             color={LabelColor.green}
             icon={
               <Icon shouldMirrorRTL>
-                <WalkingIcon />
+                <RhUiRunningIcon />
               </Icon>
             }
           >
@@ -197,7 +197,7 @@ export const PaginatedTableAction: React.FunctionComponent = () => {
           <Label
             icon={
               <Icon shouldMirrorRTL>
-                <HandPaperIcon />
+                <RhUiStopCircleFillIcon />
               </Icon>
             }
             color={LabelColor.red}
@@ -215,7 +215,7 @@ export const PaginatedTableAction: React.FunctionComponent = () => {
       case 'Down':
       case 'מטה':
         return (
-          <Label icon={<ClockIcon />} color={LabelColor.orange}>
+          <Label icon={<RhUiClockFillIcon />} color={LabelColor.orange}>
             {translation.table.rows.status.down}
           </Label>
         );
@@ -363,7 +363,7 @@ export const PaginatedTableAction: React.FunctionComponent = () => {
                       onClick={onKebabDropdownToggle}
                       variant="plain"
                       aria-label={translation.kebabDropdown.settingsAndHelp}
-                      icon={<EllipsisVIcon />}
+                      icon={<RhUiEllipsisVerticalFillIcon />}
                     />
                   )}
                 >
@@ -383,7 +383,7 @@ export const PaginatedTableAction: React.FunctionComponent = () => {
                       onClick={onFullKebabToggle}
                       variant="plain"
                       aria-label={translation.kebabAndUserDropdown.toolbarMenuAriaLabel}
-                      icon={<EllipsisVIcon />}
+                      icon={<RhUiEllipsisVerticalFillIcon />}
                     />
                   )}
                 >
