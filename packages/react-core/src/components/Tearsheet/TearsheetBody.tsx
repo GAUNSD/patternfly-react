@@ -6,6 +6,6 @@ import { ModalBody, type ModalBodyProps } from '../Modal';
 export interface TearsheetBodyProps extends ModalBodyProps {}
 
 export const TearsheetBody: FunctionComponent<TearsheetBodyProps> = ({ className, ...props }: TearsheetBodyProps) => (
-  <ModalBody className={css(styles.tearsheetBody, className)} {...props} />
+  <ModalBody className={css(styles.tearsheetBody, className)} tabIndex={0} {...props} />
 );
 TearsheetBody.displayName = 'TearsheetBody';

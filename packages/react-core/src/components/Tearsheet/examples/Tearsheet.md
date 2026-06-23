@@ -27,3 +27,8 @@ Use a `TearsheetGroup` to manage an unbounded number of stacked tearsheets. Rend
 
 ```ts file="./TearsheetGroup.tsx"
 ```
+
+### Tearsheet layouts
+
+```ts file="./TearsheetLayouts.tsx"
+```

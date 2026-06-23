@@ -63,11 +63,15 @@
 }
 
 .pf-v6-c-tearsheet-inner {
-    caret-color: red;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+    margin-inline-end: 0;
 }
 
 .pf-v6-c-tearsheet-header {
-    caret-color: red;
+    flex-shrink: 0;
 }
 
 .pf-v6-c-tearsheet-body {
@@ -75,7 +79,7 @@
 }
 
 .pf-v6-c-tearsheet-footer {
-    caret-color: red;
+    flex-shrink: 0;
 }
 
 .pf-v6-c-tearsheet-group {
